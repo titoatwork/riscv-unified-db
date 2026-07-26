@@ -12,7 +12,7 @@ require "yaml"
 # Catches the historical 4095 (0xfff) typo (should be 4096 / 0x1000).
 
 class TestMtvecBaseAlignmentPow2 < Minitest::Test
-  # tools/ruby-gems/udb/test -> repo root
+  # tools/ruby-gems/udb/test -> udb -> ruby-gems -> tools -> repo root
   REPO_ROOT = File.expand_path("../../../../", __dir__)
   FILES = [
     "spec/std/isa/param/MTVEC_BASE_ALIGNMENT_DIRECT.yaml",
