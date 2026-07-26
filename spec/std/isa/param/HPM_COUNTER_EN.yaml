@@ -10,10 +10,10 @@ description: |
   List of HPM counters that are enabled.
   There is one entry for each hpmcounter.
 
-  The first three entries *must* be false (as they correspond to CY, IR, TM in, _e.g._ `mhmpcountinhibit`)
+  The first three entries *must* be false (as they correspond to CY, IR, TM in, _e.g._ `mcountinhibit`)
   Index 3 in HPM_COUNTER_EN corresponds to mhpmcounter3.
   Index 31 in HPM_COUNTER_EN corresponds to mhpmcounter31.
-long_name: TODO
+long_name: Enabled hardware performance monitors
 schema:
   type: array
   items:
