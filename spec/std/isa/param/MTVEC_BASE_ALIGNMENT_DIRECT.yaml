@@ -7,7 +7,7 @@ $schema: param_schema.json#
 kind: parameter
 name: MTVEC_BASE_ALIGNMENT_DIRECT
 long_name: |
-  Minumum alignment of `mtvec.BASE` when `mtvec.MODE` is 0 (direct)
+  Minimum alignment of `mtvec.BASE` when `mtvec.MODE` is 0 (direct)
 definedBy:
   allOf:
     - extension:
@@ -38,7 +38,7 @@ schema:
       512,
       1024,
       2048,
-      4095,
+      4096,
       8192,
       16384,
       32768,
